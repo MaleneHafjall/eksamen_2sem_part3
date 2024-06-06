@@ -18,10 +18,11 @@ body {
 
 :root {
   /* Farver defineret */
-  --primary-color: #fff7e8; /* Knækket hvid */
-  --secondary-color: #202220; /* Dyb mørk grå */
-  --tertiary-color: #e73127; /* Rød */
-  --accent-color: #3f742f; /* Grøn */
+  color-scheme: light dark;
+  --primary-color: light-dark(#fff7e8, #202220); /* Knækket hvid */
+  --secondary-color: light-dark(#202220, #fff7eb); /* Dyb mørk grå */
+  --tertiary-color: light-dark(#e73127, #ec5850); /* Rød */
+  --accent-color: light-dark(#3f742f, #5ca744); /* Grøn */
 
   /* Skrifttyper */
   --font-primary: "Roboto", sans-serif;
